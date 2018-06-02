@@ -5,7 +5,8 @@ Boot Camp Group Project
 
 
 Project Title:
-	Rise of Crypto and Trump
+
+Rise of Crypto and Trump
 
 Team Members: 
 
@@ -17,20 +18,26 @@ Team Members:
 
 -Vashisth Sharma (Vinnie)
 
-Project Description/Outline
+Project Description/Outline:
+
 •	Relationship between Trump Tweets and Bit Coin Prices
 •	Relationship between Trump Tweets and Stock Market Prices
 •	Retweets
 •	Followers
 
-Research Questions to Answer
+Research Questions to Answer:
 
-Data Sets to be Used
+
+
+
+Data Sets to be Used:
+
 •	Public APIs
 •	Reddit
 •	Kaggle
 
-Rough Breakdown of Tasks
+Rough Breakdown of Tasks:
+
 •	Data Fetch
 •	Data Cleaning
 •	Data Processing
