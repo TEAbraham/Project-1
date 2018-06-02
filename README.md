@@ -8,10 +8,10 @@ Project Title:
 	Rise of Crypto and Trump
 
 Team Members: 
-•	Steven Orn
-•	Beverly Lau
-•	Thomas Abraham
-•	Vashisth Sharma (Vinnie)
+-Steven Orn
+-Beverly Lau
+-Thomas Abraham
+-Vashisth Sharma (Vinnie)
 
 Project Description/Outline
 •	Relationship between Trump Tweets and Bit Coin Prices
