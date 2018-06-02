@@ -8,6 +8,7 @@ Project Title:
 	Rise of Crypto and Trump
 
 Team Members: 
+
 -Steven Orn
 
 -Beverly Lau
