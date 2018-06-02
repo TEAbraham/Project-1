@@ -1,7 +1,7 @@
 # Boot Camp Group Project
 
 
-##Rise of Crypto and Trump
+## Rise of Crypto and Trump
 
 Team Members: 
 
