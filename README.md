@@ -9,8 +9,11 @@ Project Title:
 
 Team Members: 
 -Steven Orn
+
 -Beverly Lau
+
 -Thomas Abraham
+
 -Vashisth Sharma (Vinnie)
 
 Project Description/Outline
