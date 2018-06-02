@@ -34,3 +34,7 @@ Rough Breakdown of Tasks
 •	Analyzing
 •	Vader Analysis
 
+
+Hypothesis:
+We are planning on seeing if there is a correlation between Trump tweets and financial markets, specifically cryptocurrencies and stock market indexes. We plan on doing this by running a VADER analysis on tweets(@realDonaldTrump), noting frequency, popularity and comparing it to the changing prices of Cryptocurrency(Bitcoin). This involves using a existing dataset on Bitcoin from www.kaggle.com as well creating our own dataset by calling the tweepy API. We will then plot our findings, determine trends, and report findings. 
+
