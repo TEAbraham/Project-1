@@ -32,6 +32,7 @@ Data Sets to be Used:
 •	Public APIs
 •	Reddit
 •	Kaggle
+•	http://www.trumptwitterarchive.com/
 
 Rough Breakdown of Tasks:
 
