@@ -131,8 +131,8 @@ final_data.head()
 ```python
 x = ['2013','2014','2015','2016','2017','2018']
 
-sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'})
-g=sns.barplot(x=trump_tweet.Date, y=trump_tweet['Avg_Compound'], palette=mpl.cm.ScalarMappable(cmap='RdYlGn').to_rgba(trump_tweet['Avg_Compound']))
+sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'},font_scale=1.3)
+g=sns.barplot(x=trump_tweet.Date, y=trump_tweet['Avg_Compound'],palette=mpl.cm.ScalarMappable(cmap='RdYlGn').to_rgba(trump_tweet['Avg_Compound']))
 
 g.xaxis.set_major_locator(ticker.MultipleLocator(359))
 g.xaxis.set_major_formatter(ticker.FixedFormatter(x))
@@ -152,14 +152,14 @@ plt.show()
 ```python
 x = ['2013','2014','2015','2016','2017','2018']
 
-sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'})
+sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'},font_scale=1.3)
 g=sns.barplot(x=trump_tweet.Date, y=trump_tweet.Avg_Followers, palette=mpl.cm.ScalarMappable(cmap='RdYlGn').to_rgba(trump_tweet['Avg_Compound']))
 
 g.xaxis.set_major_locator(ticker.MultipleLocator(359))
 g.xaxis.set_major_formatter(ticker.FixedFormatter(x))
 
 plt.title(f"Trump's Followers Over Time")
-plt.ylabel("Tweet Polarity")
+plt.ylabel("Followers in Millions")
 plt.ylim(0,50000000)
 plt.show()
 ```
@@ -172,15 +172,15 @@ plt.show()
 ```python
 x = ['2013','2014','2015','2016','2017','Present']
 
-sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'})
+sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'},font_scale=1.3)
 g=sns.pointplot(x=final_data.Date, y=final_data['Nasdaq_close'],color='blue')
 g=sns.barplot(x=final_data.Date, y=final_data['# of Text']*100, palette=mpl.cm.ScalarMappable(cmap='RdYlGn').to_rgba(trump_tweet['Avg_Compound']))
 
 g.xaxis.set_major_locator(ticker.MultipleLocator(396))
 g.xaxis.set_major_formatter(ticker.FixedFormatter(x))
 
-plt.title(f"Trump's Frequency Over Time vs Bitcoin")
-plt.ylabel("Tweet Frequency and Bitcoin Price")
+plt.title(f"Trump's Frequency Over Time vs Nasdaq")
+plt.ylabel("Tweet Frequency and Index Value")
 plt.ylim(0,8000)
 plt.show()
 ```
@@ -193,15 +193,15 @@ plt.show()
 ```python
 x = ['2013','2014','2015','2016','2017','Present']
 
-sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'})
+sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'},font_scale=1.3)
 g=sns.pointplot(x=final_data.Date, y=final_data['Dow_close'],color='green')
 g=sns.barplot(x=final_data.Date, y=final_data['# of Text']*300, palette=mpl.cm.ScalarMappable(cmap='RdYlGn').to_rgba(trump_tweet['Avg_Compound']))
 
 g.xaxis.set_major_locator(ticker.MultipleLocator(396))
 g.xaxis.set_major_formatter(ticker.FixedFormatter(x))
 
-plt.title(f"Trump's Frequency Over Time vs Bitcoin")
-plt.ylabel("Tweet Frequency and Bitcoin Price")
+plt.title(f"Trump's Frequency Over Time vs Dow Jones")
+plt.ylabel("Tweet Frequency and Index Value")
 plt.ylim(0,30000)
 plt.show()
 ```
@@ -214,15 +214,15 @@ plt.show()
 ```python
 x = ['2013','2014','2015','2016','2017','Present']
 
-sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'})
+sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'},font_scale=1.3)
 g=sns.pointplot(x=final_data.Date, y=final_data['SP_close'],color='yellow')
 g=sns.barplot(x=final_data.Date, y=final_data['# of Text']*30, palette=mpl.cm.ScalarMappable(cmap='RdYlGn').to_rgba(trump_tweet['Avg_Compound']))
 
 g.xaxis.set_major_locator(ticker.MultipleLocator(396))
 g.xaxis.set_major_formatter(ticker.FixedFormatter(x))
 
-plt.title(f"Trump's Frequency Over Time vs Bitcoin")
-plt.ylabel("Tweet Frequency and Bitcoin Price")
+plt.title(f"Trump's Frequency Over Time vs S&P")
+plt.ylabel("Tweet Frequency and Index Value")
 plt.ylim(0,3000)
 plt.show()
 ```
@@ -235,7 +235,7 @@ plt.show()
 ```python
 x = ['2013','2014','2015','2016','2017','Present']
 
-sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'})
+sns.set(rc={'figure.figsize':(20,10),'axes.facecolor':'cornflowerblue', 'figure.facecolor':'cornflowerblue'},font_scale=1.3)
 g=sns.pointplot(x=final_data.Date, y=final_data['BTC_close'],color='red')
 g=sns.barplot(x=final_data.Date, y=final_data['# of Text']*150, palette=mpl.cm.ScalarMappable(cmap='RdYlGn').to_rgba(trump_tweet['Avg_Compound']))
 
@@ -243,7 +243,7 @@ g.xaxis.set_major_locator(ticker.MultipleLocator(396))
 g.xaxis.set_major_formatter(ticker.FixedFormatter(x))
 
 plt.title(f"Trump's Frequency Over Time vs Bitcoin")
-plt.ylabel("Tweet Frequency and Bitcoin Price")
+plt.ylabel("Tweet Frequency and Stock Price")
 plt.ylim(0,20000)
 plt.show()
  
