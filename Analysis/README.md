@@ -159,7 +159,7 @@ g.xaxis.set_major_locator(ticker.MultipleLocator(359))
 g.xaxis.set_major_formatter(ticker.FixedFormatter(x))
 
 plt.title(f"Trump's Followers Over Time")
-plt.ylabel("Followers in Millions")
+plt.ylabel("Followers in Tens of Millions")
 plt.ylim(0,50000000)
 plt.show()
 ```
